@@ -21,6 +21,27 @@ Tech Stack:
 - matplotlib & seaborn: Data visualization (Elbow plot, scatter plots, bar charts, count plots)
 - scikit-learn: K-Means clustering, train_test_split, StandardScaler, Logistic Regression, Random Forest Classifier, accuracy_score, confusion_matrix, classification_report
 - Google Colab: The development environment
+
+### Key Concepts Demonstrated
+
+#### Activity 1: Clustering
+
+| Concept | Implementation | Purpose |
+|---------|----------------|---------|
+| **Elbow Method** | `wcss` (inertia) for k=1 to 10 | Find optimal number of clusters |
+| **K-Means Clustering** | `KMeans(n_clusters=5)` | Group similar customers together |
+| **Centroids** | `kmeans.cluster_centers_` | Center points of each cluster |
+| **Visualization** | Scatter plot with colors | Interpret customer segments |
+
+#### Activity 2: Classification
+
+| Concept | Implementation | Purpose |
+|---------|----------------|---------|
+| **Feature Scaling** | `StandardScaler()` | Normalize features for model performance |
+| **Logistic Regression** | `LogisticRegression()` | Baseline classifier |
+| **Random Forest** | `RandomForestClassifier()` | Powerful ensemble method |
+| **Confusion Matrix** | `confusion_matrix()` | Evaluate classification results |
+| **Feature Importance** | `rf.feature_importances_` | Understand what drives fraud predictions |
 """
 
 # ============================================================================
